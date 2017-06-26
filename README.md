@@ -1,0 +1,2 @@
+# CursoQlikView
+Curso de Mary
