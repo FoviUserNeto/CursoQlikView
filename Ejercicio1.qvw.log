@@ -1,122 +1,141 @@
-﻿2017-06-25 23:59:51      Ejecución iniciada.
-2017-06-25 23:59:51      QlikView Desktop Version      12.0.20000.0
-2017-06-25 23:59:51      CPU Target                    x64
-2017-06-25 23:59:51      Operating System              Windows 10 Pro N  (64 bit edition)
-2017-06-25 23:59:51      Wow64 mode                    Not using Wow64
-2017-06-25 23:59:51      Language                      0c0a Español (España, internacional) Spanish
-2017-06-25 23:59:51      Country                       34 España Spain
-2017-06-25 23:59:51      MDAC Version                  6.3.9600.16384
-2017-06-25 23:59:51      MDAC Full Install Version     6.3.9600.16384
-2017-06-25 23:59:51      PreferredCompression          2
-2017-06-25 23:59:51      EnableParallelReload          1
-2017-06-25 23:59:51      ParallelizeQvdLoads           1
-2017-06-25 23:59:51      AutoSaveAfterReload           0
-2017-06-25 23:59:51      BackupBeforeReload            1
-2017-06-25 23:59:51      EnableFlushLog                0
-2017-06-25 23:59:51      SaveInfoWhenSavingFile        0
-2017-06-25 23:59:51      UserLogfileCharset            65001
-2017-06-25 23:59:51      OdbcLoginTimeout              -1
-2017-06-25 23:59:51      OdbcConnectionTimeout         -1
-2017-06-25 23:59:51      ScriptWantsDbWrite            false
-2017-06-25 23:59:51      ScriptWantsExe                false
-2017-06-25 23:59:51      LogFile CodePage Used:        65001
-2017-06-25 23:59:51      UseMemoryFillPattern          1
-2017-06-25 23:59:51      ScriptMode                    Legacy (gives greater system access) (aka qv11 mode)
-2017-06-25 23:59:51      ReloadCodebase                Classic
-2017-06-25 23:59:51      Reload Executed By            RICARDO\CRIS-DARCHS
-2017-06-25 23:59:51      Process Executing             QlikView Desktop
-2017-06-25 23:59:51      Process ID                    7000
-2017-06-25 23:59:51 0002 SET ThousandSep='.'
-2017-06-25 23:59:51 0003 SET DecimalSep=','
-2017-06-25 23:59:51 0004 SET MoneyThousandSep='.'
-2017-06-25 23:59:51 0005 SET MoneyDecimalSep=','
-2017-06-25 23:59:51 0006 SET MoneyFormat='#.##0,00 €;-#.##0,00 €'
-2017-06-25 23:59:51 0007 SET TimeFormat='h:mm:ss'
-2017-06-25 23:59:51 0008 SET DateFormat='DD/MM/YYYY'
-2017-06-25 23:59:51 0009 SET TimestampFormat='DD/MM/YYYY h:mm:ss[.fff]'
-2017-06-25 23:59:51 0010 SET MonthNames='ene.;feb.;mar.;abr.;may.;jun.;jul.;ago.;sep.;oct.;nov.;dic.'
-2017-06-25 23:59:51 0011 SET DayNames='lu.;ma.;mi.;ju.;vi.;sá.;do.'
-2017-06-25 23:59:51 0012 SET LongMonthNames='enero;febrero;marzo;abril;mayo;junio;julio;agosto;septiembre;octubre;noviembre;diciembre'
-2017-06-25 23:59:51 0013 SET LongDayNames='lunes;martes;miércoles;jueves;viernes;sábado;domingo'
-2017-06-25 23:59:51 0014 SET FirstWeekDay=0
-2017-06-25 23:59:51 0015 SET BrokenWeeks=0
-2017-06-25 23:59:51 0016 SET ReferenceDay=4
-2017-06-25 23:59:51 0017 SET FirstMonthOfYear=1
-2017-06-25 23:59:51 0018 SET CollationLocale='es-ES'
-2017-06-25 23:59:51 0020 OLEDB*CONNECT*Provider*OLEDB*OLEDB*OLEDB*OLEDB*Password*OLEDB*OLEDB*OLEDB*OLEDB*OLEDB*Password*OLEDB*OLEDB*OLEDB*OLEDB*OLEDB*OLEDB*OLEDB*OLEDB*OLEDB*
-2017-06-25 23:59:51 0023 Customers:
-2017-06-25 23:59:51 0024 LOAD Address,
-2017-06-25 23:59:51 0025     City,
-2017-06-25 23:59:51 0026     CompanyName,
-2017-06-25 23:59:51 0027     ContactName,
-2017-06-25 23:59:51 0028     Country,
-2017-06-25 23:59:51 0029     CustomerID,
-2017-06-25 23:59:51 0030     DivisionID,
-2017-06-25 23:59:51 0031     Fax,
-2017-06-25 23:59:51 0032     Phone,
-2017-06-25 23:59:51 0033     PostalCode,
-2017-06-25 23:59:51 0034     StateProvince
-2017-06-25 23:59:51 0035 SQL SELECT *
-2017-06-25 23:59:51 0036 FROM Customers
-2017-06-25 23:59:52      	11 campos encontrados: Address, City, CompanyName, ContactName, Country, CustomerID, DivisionID, Fax, Phone, PostalCode, StateProvince, 
-2017-06-25 23:59:52      92 registros leídos
-2017-06-25 23:59:52 0038 Shippers:
-2017-06-25 23:59:52 0039 LOAD CompanyName as Shippers,
-2017-06-25 23:59:52 0040     ShipperID
-2017-06-25 23:59:52 0041 SQL SELECT *
-2017-06-25 23:59:52 0042 FROM Shippers
-2017-06-25 23:59:52      	2 campos encontrados: Shippers, ShipperID, 
-2017-06-25 23:59:52      3 registros leídos
-2017-06-25 23:59:52 0045 Products:
-2017-06-25 23:59:52 0046 LOAD CategoryID,
-2017-06-25 23:59:52 0047     ProductID,
-2017-06-25 23:59:52 0048     ProductName,
-2017-06-25 23:59:52 0049     QuantityPerUnit,
-2017-06-25 23:59:52 0050     SupplierID,
-2017-06-25 23:59:52 0051     UnitCost,
-2017-06-25 23:59:52 0052    
-2017-06-25 23:59:52 0053     UnitsInStock,
-2017-06-25 23:59:52 0054     UnitsOnOrder
-2017-06-25 23:59:52 0055 SQL SELECT *
-2017-06-25 23:59:52 0056 FROM Products
-2017-06-25 23:59:52      	8 campos encontrados: CategoryID, ProductID, ProductName, QuantityPerUnit, SupplierID, UnitCost, UnitsInStock, UnitsOnOrder, 
-2017-06-25 23:59:52      77 registros leídos
-2017-06-25 23:59:52 0059 Categories:
-2017-06-25 23:59:52 0060 LOAD CategoryID,
-2017-06-25 23:59:52 0061     CategoryName,
-2017-06-25 23:59:52 0062     Description
-2017-06-25 23:59:52 0063 SQL SELECT *
-2017-06-25 23:59:52 0064 FROM Categories
-2017-06-25 23:59:53      	3 campos encontrados: CategoryID, CategoryName, Description, 
-2017-06-25 23:59:53      8 registros leídos
-2017-06-25 23:59:53 0069 Orders:
-2017-06-25 23:59:53 0070 LOAD CustomerID,
-2017-06-25 23:59:53 0071     EmployeeID,
-2017-06-25 23:59:53 0072     Freight,
-2017-06-25 23:59:53 0073     OrderDate,
-2017-06-25 23:59:53 0074     OrderID,
-2017-06-25 23:59:53 0075     ShipperID
-2017-06-25 23:59:53 0076 SQL SELECT *
-2017-06-25 23:59:53 0077 FROM Orders
-2017-06-25 23:59:53      	6 campos encontrados: CustomerID, EmployeeID, Freight, OrderDate, OrderID, ShipperID, 
-2017-06-25 23:59:53      6.571 registros leídos
-2017-06-25 23:59:53 0079 OrdersDetails:
-2017-06-25 23:59:53 0080 LOAD Discount,
-2017-06-25 23:59:53 0081     LineNo,
-2017-06-25 23:59:53 0082     OrderID,
-2017-06-25 23:59:53 0083     ProductID,
-2017-06-25 23:59:53 0084     Quantity,
-2017-06-25 23:59:53 0085     UnitPrice,
-2017-06-25 23:59:53 0086     UnitPrice*Quantity*(1-Discount) as LineSalesAmount
-2017-06-25 23:59:53 0087 SQL SELECT *
-2017-06-25 23:59:53 0088 FROM `Order Details`
-2017-06-25 23:59:53      	7 campos encontrados: Discount, LineNo, OrderID, ProductID, Quantity, UnitPrice, LineSalesAmount, 
-2017-06-25 23:59:53      17.032 registros leídos
-2017-06-25 23:59:53 0093 Divisions:
-2017-06-25 23:59:53 0094 LOAD DivisionID,
-2017-06-25 23:59:53 0095     DivisionName
-2017-06-25 23:59:53 0096 SQL SELECT *
-2017-06-25 23:59:53 0097 FROM Divisions
-2017-06-25 23:59:54      	2 campos encontrados: DivisionID, DivisionName, 
-2017-06-25 23:59:54      4 registros leídos
-2017-06-25 23:59:54      Ejecución finalizada.
+﻿2017-06-26 19:14:49      Ejecución iniciada.
+2017-06-26 19:14:49      QlikView Desktop Version      12.0.20000.0
+2017-06-26 19:14:49      CPU Target                    x64
+2017-06-26 19:14:49      Operating System              Windows 10 Pro N  (64 bit edition)
+2017-06-26 19:14:49      Wow64 mode                    Not using Wow64
+2017-06-26 19:14:49      Language                      0c0a Español (España, internacional) Spanish
+2017-06-26 19:14:49      Country                       34 España Spain
+2017-06-26 19:14:49      MDAC Version                  6.3.9600.16384
+2017-06-26 19:14:49      MDAC Full Install Version     6.3.9600.16384
+2017-06-26 19:14:49      PreferredCompression          2
+2017-06-26 19:14:49      EnableParallelReload          1
+2017-06-26 19:14:49      ParallelizeQvdLoads           1
+2017-06-26 19:14:49      AutoSaveAfterReload           0
+2017-06-26 19:14:49      BackupBeforeReload            1
+2017-06-26 19:14:49      EnableFlushLog                0
+2017-06-26 19:14:49      SaveInfoWhenSavingFile        0
+2017-06-26 19:14:49      UserLogfileCharset            65001
+2017-06-26 19:14:49      OdbcLoginTimeout              -1
+2017-06-26 19:14:49      OdbcConnectionTimeout         -1
+2017-06-26 19:14:49      ScriptWantsDbWrite            false
+2017-06-26 19:14:49      ScriptWantsExe                false
+2017-06-26 19:14:49      LogFile CodePage Used:        65001
+2017-06-26 19:14:49      UseMemoryFillPattern          1
+2017-06-26 19:14:49      ScriptMode                    Legacy (gives greater system access) (aka qv11 mode)
+2017-06-26 19:14:49      ReloadCodebase                Classic
+2017-06-26 19:14:49      Reload Executed By            RICARDO\CRIS-DARCHS
+2017-06-26 19:14:49      Process Executing             QlikView Desktop
+2017-06-26 19:14:49      Process ID                    8752
+2017-06-26 19:14:49 0002 SET ThousandSep='.'
+2017-06-26 19:14:49 0003 SET DecimalSep=','
+2017-06-26 19:14:49 0004 SET MoneyThousandSep='.'
+2017-06-26 19:14:49 0005 SET MoneyDecimalSep=','
+2017-06-26 19:14:49 0006 SET MoneyFormat='#.##0,00 €;-#.##0,00 €'
+2017-06-26 19:14:49 0007 SET TimeFormat='h:mm:ss'
+2017-06-26 19:14:49 0008 SET DateFormat='DD/MM/YYYY'
+2017-06-26 19:14:49 0009 SET TimestampFormat='DD/MM/YYYY h:mm:ss[.fff]'
+2017-06-26 19:14:49 0010 SET MonthNames='ene.;feb.;mar.;abr.;may.;jun.;jul.;ago.;sep.;oct.;nov.;dic.'
+2017-06-26 19:14:49 0011 SET DayNames='lu.;ma.;mi.;ju.;vi.;sá.;do.'
+2017-06-26 19:14:49 0012 SET LongMonthNames='enero;febrero;marzo;abril;mayo;junio;julio;agosto;septiembre;octubre;noviembre;diciembre'
+2017-06-26 19:14:49 0013 SET LongDayNames='lunes;martes;miércoles;jueves;viernes;sábado;domingo'
+2017-06-26 19:14:49 0014 SET FirstWeekDay=0
+2017-06-26 19:14:49 0015 SET BrokenWeeks=0
+2017-06-26 19:14:49 0016 SET ReferenceDay=4
+2017-06-26 19:14:49 0017 SET FirstMonthOfYear=1
+2017-06-26 19:14:49 0018 SET CollationLocale='es-ES'
+2017-06-26 19:14:49 0020 OLEDB*CONNECT*Provider*OLEDB*OLEDB*OLEDB*OLEDB*Password*OLEDB*OLEDB*OLEDB*OLEDB*OLEDB*Password*OLEDB*OLEDB*OLEDB*OLEDB*OLEDB*OLEDB*OLEDB*OLEDB*OLEDB*
+2017-06-26 19:14:49 0023 Customers:
+2017-06-26 19:14:49 0024 LOAD Address,
+2017-06-26 19:14:49 0025     City,
+2017-06-26 19:14:49 0026     CompanyName,
+2017-06-26 19:14:49 0027     ContactName,
+2017-06-26 19:14:49 0028     Country,
+2017-06-26 19:14:49 0029     CustomerID,
+2017-06-26 19:14:49 0030     DivisionID,
+2017-06-26 19:14:49 0031     Fax,
+2017-06-26 19:14:49 0032     Phone,
+2017-06-26 19:14:49 0033     PostalCode,
+2017-06-26 19:14:49 0034     StateProvince
+2017-06-26 19:14:49 0035 SQL SELECT *
+2017-06-26 19:14:49 0036 FROM Customers
+2017-06-26 19:14:49      	11 campos encontrados: Address, City, CompanyName, ContactName, Country, CustomerID, DivisionID, Fax, Phone, PostalCode, StateProvince, 
+2017-06-26 19:14:49      92 registros leídos
+2017-06-26 19:14:49 0038 Shippers:
+2017-06-26 19:14:49 0039 LOAD CompanyName as Shippers,
+2017-06-26 19:14:49 0040     ShipperID
+2017-06-26 19:14:49 0041 SQL SELECT *
+2017-06-26 19:14:49 0042 FROM Shippers
+2017-06-26 19:14:50      	2 campos encontrados: Shippers, ShipperID, 
+2017-06-26 19:14:50      3 registros leídos
+2017-06-26 19:14:50 0045 Products:
+2017-06-26 19:14:50 0046 LOAD CategoryID,
+2017-06-26 19:14:50 0047     ProductID,
+2017-06-26 19:14:50 0048     ProductName,
+2017-06-26 19:14:50 0049     QuantityPerUnit,
+2017-06-26 19:14:50 0050     SupplierID,
+2017-06-26 19:14:50 0051     UnitCost,
+2017-06-26 19:14:50 0052    
+2017-06-26 19:14:50 0053     UnitsInStock,
+2017-06-26 19:14:50 0054     UnitsOnOrder
+2017-06-26 19:14:50 0055 SQL SELECT *
+2017-06-26 19:14:50 0056 FROM Products
+2017-06-26 19:14:50      	8 campos encontrados: CategoryID, ProductID, ProductName, QuantityPerUnit, SupplierID, UnitCost, UnitsInStock, UnitsOnOrder, 
+2017-06-26 19:14:50      77 registros leídos
+2017-06-26 19:14:50 0059 Categories:
+2017-06-26 19:14:50 0060 LOAD CategoryID,
+2017-06-26 19:14:50 0061     CategoryName,
+2017-06-26 19:14:50 0062     Description
+2017-06-26 19:14:50 0063 SQL SELECT *
+2017-06-26 19:14:50 0064 FROM Categories
+2017-06-26 19:14:50      	3 campos encontrados: CategoryID, CategoryName, Description, 
+2017-06-26 19:14:50      8 registros leídos
+2017-06-26 19:14:50 0069 Orders:
+2017-06-26 19:14:50 0070 LOAD CustomerID,
+2017-06-26 19:14:50 0071     EmployeeID,
+2017-06-26 19:14:50 0072     Freight,
+2017-06-26 19:14:50 0073     OrderDate,
+2017-06-26 19:14:50 0074     OrderID,
+2017-06-26 19:14:50 0075     ShipperID
+2017-06-26 19:14:50 0076 SQL SELECT *
+2017-06-26 19:14:50 0077 FROM Orders
+2017-06-26 19:14:50 0078 ORDER BY OrderDate ASC
+2017-06-26 19:14:51      	6 campos encontrados: CustomerID, EmployeeID, Freight, OrderDate, OrderID, ShipperID, 
+2017-06-26 19:14:51      6.571 registros leídos
+2017-06-26 19:14:51 0080 OrdersDetails:
+2017-06-26 19:14:51 0081 LOAD Discount,
+2017-06-26 19:14:51 0082     LineNo,
+2017-06-26 19:14:51 0083     OrderID,
+2017-06-26 19:14:51 0084     ProductID,
+2017-06-26 19:14:51 0085     Quantity,
+2017-06-26 19:14:51 0086     UnitPrice,
+2017-06-26 19:14:51 0087     UnitPrice*Quantity*(1-Discount) as LineSalesAmount
+2017-06-26 19:14:51 0088 SQL SELECT *
+2017-06-26 19:14:51 0089 FROM `Order Details`
+2017-06-26 19:14:51      	7 campos encontrados: Discount, LineNo, OrderID, ProductID, Quantity, UnitPrice, LineSalesAmount, 
+2017-06-26 19:14:51      17.032 registros leídos
+2017-06-26 19:14:51 0094 Divisions:
+2017-06-26 19:14:51 0095 LOAD DivisionID,
+2017-06-26 19:14:51 0096     DivisionName
+2017-06-26 19:14:51 0097 SQL SELECT *
+2017-06-26 19:14:51 0098 
+2017-06-26 19:14:51 0099 
+2017-06-26 19:14:51 0100 FROM Divisions
+2017-06-26 19:14:51      	2 campos encontrados: DivisionID, DivisionName, 
+2017-06-26 19:14:51      4 registros leídos
+2017-06-26 19:14:51 0103 QUALIFY *
+2017-06-26 19:14:51 0104 UNQUALIFY SupplierID
+2017-06-26 19:14:51 0106 Suppliers:
+2017-06-26 19:14:51 0107 LOAD SupplierID,
+2017-06-26 19:14:51 0108     CompanyName,
+2017-06-26 19:14:51 0109     ContactName,
+2017-06-26 19:14:51 0110     Address,
+2017-06-26 19:14:51 0111     City,
+2017-06-26 19:14:51 0112     PostalCode,
+2017-06-26 19:14:51 0113     Country,
+2017-06-26 19:14:51 0114     Phone,
+2017-06-26 19:14:51 0115     Fax
+2017-06-26 19:14:51 0116 FROM Datos\Suppliers.xml (XmlSimple, Table is [Suppliers/_empty_])
+2017-06-26 19:14:52      	9 campos encontrados: SupplierID, Suppliers.CompanyName, Suppliers.ContactName, Suppliers.Address, Suppliers.City, Suppliers.PostalCode, Suppliers.Country, Suppliers.Phone, Suppliers.Fax, 
+2017-06-26 19:14:52      29 registros leídos
+2017-06-26 19:14:52 0118 UNQUALIFY *
+2017-06-26 19:14:52      Ejecución finalizada.
